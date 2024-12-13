@@ -1,0 +1,90 @@
+body{
+    background-color: hsla(0, 0%, 100%, 0.908);
+}
+
+.nav-title {
+    color: hsla(174, 73%, 28%, 0.803) ;
+    text-align: center;
+    align-items: center;
+    margin: 2px;
+}
+.navbar .nav-link.active {
+    color: white;
+    background-color:hsl(174, 73%, 28%) ;
+}
+.navbar .nav-link:hover{
+    color: white;
+    background-color:hsla(174, 73%, 28%, 0.705);
+    
+}
+.container h1{
+    margin-right: 30px;
+}
+.container img {
+    height: 100px;
+}
+#menu {
+    margin-top: 100px;
+}
+header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+}
+section {
+    color: black;
+    padding: 20px;
+    height: 100vh;
+    padding-top: 171px;
+    background-color:hsla(155, 100%, 89%, 0.817) ;
+}
+section p {
+    margin-top: 40px;
+}
+
+.accordion button {
+    color: white;
+    background-color: rgb(90, 187, 166);
+}
+
+.accordion button:not(.collapsed) {
+    font-weight: bold;
+    background-color: rgb(90, 187, 166);
+    color: white;
+}
+
+.form-control:active {
+    border: 2px solid green;
+}
+
+.carousel-item img {
+    object-fit: cover; 
+    height: 1000px;
+    width: 1000px; 
+    z-index: 1;
+}
+.carousel-item h2 {
+    color: black;
+}
+.card {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 100px;
+}
+
+.card-body .btn {
+    margin-top: auto;
+}
